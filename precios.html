@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- build:css css/index.css  -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/abf134c55d.js" crossorigin="anonymous"></script>
+  <!-- endbuild -->
+  <title>Guía hoteles</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Hoteles</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item "><a class="nav-link" href="./about.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-5">Guía de hoteles en Montevideo</h1>
+  </div>
+  </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Precios</li>
+      </ol>
+    </nav>
+
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="compra-tab" data-bs-toggle="tab" href="#compra" role="pill"
+          aria-controls="compra" aria-selected="true">Compra</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" id="tarjetas-tab" data-bs-toggle="tab" href="#tarjetas" role="pill" aria-controls="tarjetas"
+          aria-selected="false">Tarjetas</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" id="comentarios-tab" data-bs-toggle="tab" href="#comentarios" role="pill"
+          aria-controls="comentarios" aria-selected="false">Comentarios</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="compra" role="tabpanel" aria-labelledby="compra-tab">
+
+        <div class="table-responsive">
+          <table class="table table-striped ">
+            <thead class="table-dark">
+              <th>Calidad</th>
+              <th>Centro</th>
+              <th>Tres Cruces</th>
+              <th>Buceo</th>
+              <th>Pocitos</th>
+              <th>Ciudad Vieja</th>
+              <th>Punta Carretas</th>
+              <th>Carrasco</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-star"></i>
+                </td>
+                <td>$100</td>
+                <td>$200</td>
+                <td>$250</td>
+                <td>$300</td>
+                <td>$400</td>
+                <td>$550</td>
+                <td>$600</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </td>
+                <td>$350</td>
+                <td>$400</td>
+                <td>$500</td>
+                <td>$600</td>
+                <td>$700</td>
+                <td>$850</td>
+                <td>$900</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </td>
+                <td>$1000</td>
+                <td>$2000</td>
+                <td>$3000</td>
+                <td>$4000</td>
+                <td>$5000</td>
+                <td>$6500</td>
+                <td>$7000</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </td>
+                <td>$5800</td>
+                <td>$6500</td>
+                <td>$7000</td>
+                <td>$7700</td>
+                <td>$8000</td>
+                <td>$9500</td>
+                <td>$9700</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </td>
+                <td>$8000</td>
+                <td>$9000</td>
+                <td>$9700</td>
+                <td>$10000</td>
+                <td>$1200</td>
+                <td>$1500</td>
+                <td>$1800</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+        <div id="accordion" id="accordionTarjetas">
+
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBasica"
+                  aria-expanded="true" aria-controls="collapseBasica">
+                  Tarjeta básica
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Podes reservar 3 cuotas sin interés. </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapsevip"
+                  aria-expanded="false" aria-controls="collapsevip">
+                  Tarjeta VIP
+                </button>
+              </h5>
+            </div>
+            <div id="collapsevip" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Podes reservar en 6 cuotas sin interés. Al llegar, recibirás una canasta de obsequíos para disfrutar con
+                tu familia.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseblack"
+                  aria-expanded="false" aria-controls="collapseblack">
+                  Tarjeta black
+                </button>
+              </h5>
+            </div>
+            <div id="collapseblack" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Podes reservar en 12 cuotas sin interés. Al llegar recibirás una canasta de obsequios para disfrutar con
+                tu familia y una acceso al gimnasio y spa todos los dias de tus vacaciones.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+        Comentarios
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="row">
+
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.twitter.com">Twitter</a>
+        <a href="http://www.instagram.com">Instagram</a>
+        <a href="http://www.google.com">Google</a>
+      </div>
+
+      <div class="col-sm-4">
+        <address>
+          <h3>Oficina central</h3>
+          <p> <i class="fa-solid fa-house footer-adress-icon"></i>Canelones 1900, La Paz, Uruguay</p>
+          <p><i class="fa-solid fa-phone footer-adress-icon"></i> +549091111111</p>
+          <p><i class="fa-solid fa-envelope footer-adress-icon"></i>contacto@guiahoteles.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="http://www.facebook.com">Nosotros</a>
+        <a href="http://www.twitter.com">Precios</a>
+        <a href="http://www.instagram.com">Términos y condiciones</a>
+        <a href="http://www.google.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  <!-- build:js js/main.js  -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

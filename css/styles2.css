@@ -1,0 +1,44 @@
+.jumbotron {
+  background-color: #f2ef1f;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.encabezado {
+  height: 30vh;
+  width: 400vh;
+}
+.slide {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.slide img {
+  height: 40vh;
+  width: 400%;
+}
+.card-hotel {
+  flex: 1 200px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.btn-reserva {
+  width: 100%;
+  border-radius: 0;
+}
+.contenedor {
+  width: 95%;
+  margin-right: 0;
+}
+.tab-content {
+  padding-top: 10px;
+}
+footer {
+  padding: 10px 10px 0px 10px;
+  background-color: #f2ef1f;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.footer-adress-icon,
+.suma {
+  padding-right: 10px;
+}
